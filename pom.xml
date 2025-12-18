@@ -16,8 +16,6 @@
     </properties>
 
     <dependencies>
-
-        <!-- Driver JDBC PostgreSQL -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>

@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8faa7ee-2123-4bb4-8c24-01c809994ed7" name="Changes" comment="" />
+    <list default="true" id="c8faa7ee-2123-4bb4-8c24-01c809994ed7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/terass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/terass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/terass/service/FuncionarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/terass/service/FuncionarioService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,7 +44,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/p090983/cadastro-funcionario",

@@ -16,11 +16,11 @@ public class Main {
         novo.setSalario(20000);
 
         try {
-            service.cadastrar(funcionario);
+            service.cadastrar(novo);
         } catch (IllegalArgumentException e) {
             System.out.println("Erro :" + e.getMessage());
         }
-
+        System.out.println("Funcionários ativos: ");
         service.listarTodos().forEach(f ->
                 System.out.println(
                         f.getId() + " | " +

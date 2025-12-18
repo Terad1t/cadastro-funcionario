@@ -3,6 +3,9 @@ package br.com.terass.service;
 import br.com.terass.dao.FuncionarioDAO;
 import br.com.terass.model.Funcionario;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class FuncionarioService {
 
     private final FuncionarioDAO funcionarioDAO;
@@ -23,6 +26,13 @@ public class FuncionarioService {
         }
         //Se passou nas regras, delega para o DAO
         funcionarioDAO.inserir(funcionario);
+    }
+    public List<Funcionario> listarAtivos () {
+        return funcionarioDAO.listar()
+                .stream()
+                .filter(Funcionario::isAtivo)
+                .collect(Collectors.toList());
+
     }
     public List<Funcionario> listarTodos() {
         return funcionarioDAO.listar();
