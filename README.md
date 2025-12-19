@@ -16,11 +16,9 @@
 # Tecnologias usadas:
 
 > JAVA
-<br>
 > JDBC
-<br>
 > POSTGRESQL
-<br>
 > DOCKER
-<br>
 > DOCKER COMPOSE
+> SQL
+
