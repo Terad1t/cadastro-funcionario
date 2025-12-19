@@ -10,3 +10,13 @@
 > Desenvolver uma ".env" para que o JDBC consiga ler e levante os dados para o Banco de Dados.
 > Desenvolver mais querys robustas usando java para retornar os dados dos funcionários com base nos filtros (alfabeto, numérico, quantidade, salário, etc).
 > Desenvolver o front-end da aplicação.
+
+---
+
+# Tecnologias usadas:
+
+> JAVA
+> JDBC
+> POSTGRESQL
+> DOCKER
+> DOCKER COMPOSE
