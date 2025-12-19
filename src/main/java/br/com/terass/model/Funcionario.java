@@ -8,5 +8,31 @@ public class Funcionario {
     private double salario;
     private boolean ativo;
 
-    // getters e setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getNome () {
+        return nome;
+    }
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+    public String getCargo() {
+        return cargo;
+    }
+    public double getSalario () {
+        return salario;
+    }
+    public boolean isAtivo() {
+        return ativo;
+    }
+    public void setAtivo(boolean ativo) {
+        this.ativo = ativo;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
 }

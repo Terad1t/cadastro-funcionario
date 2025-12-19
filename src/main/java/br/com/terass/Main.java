@@ -2,6 +2,7 @@ package br.com.terass;
 
 import br.com.terass.dao.FuncionarioDAO;
 import br.com.terass.model.Funcionario;
+import br.com.terass.service.FuncionarioService;
 
 public class Main {
 
