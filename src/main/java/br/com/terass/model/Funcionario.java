@@ -8,6 +8,14 @@ public class Funcionario {
     private double salario;
     private boolean ativo;
 
+//    public Funcionario(int id, String nome, String cargo, double salario, boolean ativo) {
+//        this.id = id;
+//        this.nome = nome;
+//        this.cargo = cargo;
+//        this.salario = salario;
+//        this.ativo = ativo;
+//    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -34,5 +42,8 @@ public class Funcionario {
     }
     public void setSalario(double salario) {
         this.salario = salario;
+    }
+    public int getId() {
+        return id;
     }
 }

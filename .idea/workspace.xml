@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8faa7ee-2123-4bb4-8c24-01c809994ed7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/terass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/terass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/terass/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/terass/config/DatabaseConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/terass/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/terass/model/Funcionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

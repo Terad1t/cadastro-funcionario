@@ -11,6 +11,9 @@ public class DatabaseConfig {
     private static final String PASSWORD = "admin";
 
     public static Connection getConnection() throws SQLException {
+        if (URL == null || USER == null || PASSWORD == null) {
+            throw new IllegalStateException("As variáveis de ambiente DB_URL, DB_USER ou DB_PASSWORD não estão definidas.");
+        }
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
